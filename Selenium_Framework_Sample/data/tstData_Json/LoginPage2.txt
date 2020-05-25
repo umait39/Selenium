@@ -1,0 +1,16 @@
+{
+  "dataSet": [
+    {
+      "testCaseDesc": "Verify Valid userName/Pwd",
+      "userName": "mngr47659",
+      "passWord": "123456@"
+      
+    },
+    {
+      "testCaseDesc": "Verify Invalid userName",
+      "userName": "",
+      "passWord": "password"
+      
+    }
+  ]
+}

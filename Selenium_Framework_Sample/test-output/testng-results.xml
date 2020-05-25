@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24226" started-at="2020-05-25T09:54:01 IST" finished-at="2020-05-25T09:54:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24226" started-at="2020-05-25T09:54:01 IST" finished-at="2020-05-25T09:54:26 IST">
+      <class name="com.trg.testScripts.LoginPageTest">
+        <test-method status="PASS" signature="configureDriver()[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="configureDriver" is-config="true" duration-ms="12859" started-at="2020-05-25T09:54:01 IST" finished-at="2020-05-25T09:54:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureDriver -->
+        <test-method status="PASS" signature="testLogin(com.trg.dataObjects.LoginPageDO)[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="testLogin" duration-ms="1453" started-at="2020-05-25T09:54:14 IST" data-provider="getData" finished-at="2020-05-25T09:54:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLoginData{testCaseDesc='Verify Valid userName/Pwd', userName='mngr47659', passWord='123456@'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="goBackToHomepage" is-config="true" duration-ms="6180" started-at="2020-05-25T09:54:16 IST" finished-at="2020-05-25T09:54:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="testLogin(com.trg.dataObjects.LoginPageDO)[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="testLogin" duration-ms="813" started-at="2020-05-25T09:54:22 IST" data-provider="getData" finished-at="2020-05-25T09:54:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestLoginData{testCaseDesc='Verify Invalid userName', userName='', passWord='password'}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="goBackToHomepage()[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="goBackToHomepage" is-config="true" duration-ms="26" started-at="2020-05-25T09:54:23 IST" finished-at="2020-05-25T09:54:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackToHomepage -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.trg.testScripts.LoginPageTest@2b552920]" name="terminateBrowser" is-config="true" duration-ms="2660" started-at="2020-05-25T09:54:23 IST" finished-at="2020-05-25T09:54:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.trg.testScripts.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
